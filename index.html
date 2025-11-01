@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Nama Mahasiswa — Portofolio</title>
+    <meta name="description" content="Portofolio pribadi — proyek, keterampilan, dan kontak. Contoh tugas praktikum Pemrograman Web." />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <a class="skip-link" href="#main">Lewati ke konten utama</a>
+
+    <header class="site-header">
+        <div class="container header-inner">
+            <div class="brand">
+                <img src="profil.jpg" alt="Foto profil" class="avatar" />
+                <div>
+                    <h1 class="site-title">Rayhan Danar Abiyyuendra</h1>
+                    <p class="site-subtitle">Mahasiswa Teknik Informatika — Fashion Enthusiast & Web Developer</p>
+                </div>
+            </div>
+
+            <nav class="main-nav" aria-label="Navigasi utama">
+                <ul>
+                    <li><a href="#tentang">Tentang</a></li>
+                    <li><a href="#proyek">Proyek</a></li>
+                    <li><a href="#kontak">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main">
+        <section id="hero" class="hero">
+            <div class="container hero-inner">
+                <div class="hero-text">
+                    <h2>Selamat datang di portofolio saya</h2>
+                    <p>
+                        Saya tertarik pada pengembangan antarmuka web yang bersih, responsif, dan mudah diakses.
+                        Halaman ini ditujukan untuk memenuhi tugas akhir daripada Praktikum Pemrograman Web Judul 1.
+                    </p>
+                    <p><a class="btn" href="#proyek">Lihat Proyek</a></p>
+                </div>
+                <figure class="hero-figure" aria-hidden="true">
+                    <img src="ilust.jpg" alt="" />
+                </figure>
+            </div>
+        </section>
+
+        <section id="tentang" class="container card about">
+            <h2>Tentang Saya</h2>
+            <div class="about-grid">
+                <div>
+                    <p>
+                        Saya adalah mahasiswa yang sedang mempelajari pengembangan web. Pada praktikum ini saya belajar cara kerja
+                        prinsip pemisahan konten dan presentasi, menulis HTML semantik, serta menggunakan CSS eksternal
+                        untuk layout dan styling.
+                    </p>
+                    <ul class="meta">
+                        <li><strong>Program Studi :</strong> Teknik Informatika</li>
+                        <li><strong>Minat :</strong> Mendaki Gunung</li>
+                        <li><strong>Email :</strong> <a href="mailto:rayhan@mail.com">rayhan@mail.com</a></li>
+                    </ul>
+                </div>
+
+                <aside class="skills">
+                    <h3>Keterampilan</h3>
+                    <ul>
+                        <li>Tidak capek saat naik gunung dibawah 2k</li>
+                        <li>Dasar Database</li>
+                        <li>Naik gunung tanpa persiapan</li>
+                        <li>Koding tutup mata</li>
+                    </ul>
+                </aside>
+            </div>
+        </section>
+
+        <section id="proyek" class="container card projects">
+            <h2>Proyek Judul 1</h2>
+
+            <article class="project">
+                <h3>Website Portofolio Pribadi</h3>
+                <p class="project-desc">
+                    Proyek ini merupakan implementasi halaman portofolio menggunakan HTML semantik dan CSS responsif.
+                </p>
+                <p><a href="https://github.com/rayonfent/Praktikum-Pemrograman-Web/tree/main/Modul%201%20-%20HTML%20%26%20CSS" target="_blank" rel="noopener">Lihat repository di GitHub</a></p>
+            </article>
+        </section>
+
+        <section id="kontak" class="container card contact">
+            <h2>Kontak & Form</h2>
+            <p>Silakan isi formulir di bawah jika ada diskusi tentang gunung atau informasi terkait lebih lanjut.</p>
+
+            <form action="#" method="post" class="contact-form" novalidate>
+                <div class="form-row">
+                    <label for="nama">Nama Lengkap <span aria-hidden="true" class="required">*</span></label>
+                    <input type="text" id="nama" name="nama" placeholder="Nama lengkap" required />
+                </div>
+
+                <div class="form-row">
+                    <label for="email-k">Email <span aria-hidden="true" class="required">*</span></label>
+                    <input type="email" id="email-k" name="email" placeholder="modren@unila.com" required />
+                </div>
+
+                <div class="form-row">
+                    <label for="kota">Kota Asal</label>
+                    <select id="kota" name="kota">
+                        <option value="">Pilih kota</option>
+                        <option value="bandar-lampung">Bandar Lampung</option>
+                        <option value="jakarta">Jakarta</option>
+                        <option value="bandung">Bandung</option>
+                    </select>
+                </div>
+
+                <div class="form-row">
+                    <label for="pesan">Pesan</label>
+                    <textarea id="pesan" name="pesan" rows="5" placeholder="Tuliskan pesan..."></textarea>
+                </div>
+
+                <div class="form-row">
+                    <button type="submit" class="btn wide">Kirim Pesan</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>&copy; 2025 Rayhan D. Abiyyuendra — Portofolio Praktikum Pemrograman Web</p>
+            <nav aria-label="Navigasi footer">
+                <ul class="footer-links">
+                    <li><a href="#tentang">Tentang</a></li>
+                    <li><a href="#proyek">Proyek</a></li>
+                    <li><a href="#kontak">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
