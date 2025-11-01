@@ -9,7 +9,7 @@ html, body {
     padding: 0;
     font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     color: #222;
-    background-color: #fff5f5;
+    background-color: #3C467B;
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
 }
@@ -24,7 +24,7 @@ html, body {
     position: absolute;
     left: -999px;
     top: -999px;
-    background: #B22222;
+    background: #50589C;
     color: white;
     padding: 8px 12px;
     z-index: 100;
@@ -194,7 +194,7 @@ html, body {
 .contact-form textarea:focus,
 .contact-form select:focus {
     outline: none;
-    border-color: #B22222;
+    border-color: #6E8CFB;
     box-shadow: 0 4px 10px rgba(220,20,60,0.15);
 }
 
